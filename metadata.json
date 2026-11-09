@@ -1,0 +1,8 @@
+{
+  "name": "BlueGPT Video Editor",
+  "description": "CapCut-style mobile video editor and designer with BlueGPT AI assistant, multi-track timeline, visual effects, filters, captions, and audio waveform tools in a sleek cobalt blue theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
