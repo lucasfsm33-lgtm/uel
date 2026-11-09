@@ -4,14 +4,26 @@ A modern mobile video editing studio built with Kotlin and Jetpack Compose featu
 
 ---
 
+## 📲 Pre-built APK Location
+
+A pre-compiled APK is included in the project:
+* **Direct File Path**: `apk/BlueGPT.apk` (24 MB)
+
+When you click **Download ZIP**, open the ZIP and look inside the **`apk/`** folder to find **`BlueGPT.apk`**!
+
+---
+
 ## 📲 How to Download & Install the APK
 
-### Option 1: On GitHub (Automated Builds)
-Whenever you push code or export this project to GitHub:
-1. Go to the **Actions** tab on your GitHub repository.
-2. Click the latest run of **Build and Release Android APK**.
-3. Under **Artifacts**, download `BlueGPT-Debug-APK.zip` (contains `app-debug.apk`).
-4. Or check the **Releases** section on the right side of your GitHub repository to download `app-debug.apk` directly.
+### Option 1: Inside the Downloaded ZIP
+1. Click **Download ZIP** in AI Studio.
+2. Unzip the downloaded file.
+3. Open the **`apk/`** folder.
+4. Install **`BlueGPT.apk`** on your Android device!
+
+### Option 2: On GitHub (Direct or Automated Builds)
+* The pre-built APK is located at `apk/BlueGPT.apk` in your GitHub repository.
+* In addition, the automated CI workflow in `.github/workflows/build-apk.yml` builds fresh APKs on every push under the **Actions** tab.
 
 ### Option 2: Directly in Google AI Studio
 1. In the top-right corner of the AI Studio window, click the **Settings (gear / three dots)** menu.
